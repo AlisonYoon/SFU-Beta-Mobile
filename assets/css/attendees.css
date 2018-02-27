@@ -165,4 +165,10 @@
 .guest-view-out {
   color: #9B9B9B;
 }
+.max-num-ppl {
+  font-size: 12px;
+  color: #4A4A4A;
+  text-indent: 27px;
+  line-height: 30px;
+}
 /* End Updated Attendee CSS */
