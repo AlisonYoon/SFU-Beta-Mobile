@@ -1,0 +1,52 @@
+.swipe-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 8998;
+    display: -webkit-box;  
+    display: -moz-box;    
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display:flex;
+
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+
+    .icon-swipe {
+        width: 50px;
+        height: 60px;
+        fill: #fff;
+    }
+
+    .swipe-info {
+        position: relative;
+        width: 267px;
+        padding-top: 15px;
+
+        .icon-info {
+            position: absolute;
+            left: 28px;
+            top: 20px;
+            width: 14px;
+            height: 14px;
+        }
+
+        .text {
+            height: 44px;
+            width: 267px;
+            color: #FFFFFF;
+            font-family: Bariol;
+            font-size: 22px;
+            letter-spacing: 1px;
+            line-height: 24px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Roundee.io</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/common.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/start.css">
+        
+        <script src="./assets/js/vendor/jquery-3.2.1.min.js"></script>
+        <script src="./assets/js/common-ui.js"></script>
+        <script src="./assets/js/landscape.js"></script>
+    </head>
+    <body>
+        <!-- loading -->
+        <div class="loading-wrap hide">
+            <h2 class="icon symbol"></h2>
+            <span class="loading-text">Loading</span>
+        </div> 
+        
+        <!-- start -->
+        <div class="start-wrap">
+            <h1 class="logo icon">Roundee.io</h1>
+            <div class="start-meeting-wrap">
+                <div class="item-block">
+                    <label>Choose your meeting title*</label>
+                    <input type="text" placeholder="My monday meeting">
+                </div>
+                <div class="item-block">
+                    <label>Email*</label>
+                    <input type="text" placeholder="yourname@mail.com">
+                </div>
+            </div>
+            <div class="btn-wrap">
+                <a href="javascript:void(0)" class="btn face green" onclick="loading()"><span>Start meeting</span></a>
+            </div>
+        </div>
+    </body>
+</html>

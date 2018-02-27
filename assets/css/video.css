@@ -1,0 +1,464 @@
+body.video-touch .top-bar {
+  display: none;
+}
+
+body.video-touch .time {
+  top: 25px;
+}
+
+body.video-touch .video {
+  height: 100%;
+}
+
+body.video-touch .nav {
+  display: none;
+}
+
+body.video-touch .small-video {
+  bottom: 20px;
+}
+
+body.video-touch .btn-add-bookmark {
+  bottom: 20px;
+}
+
+body.video-touch .landscape-mode {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /************ top nav **************/
+  /************ time **************/
+  /************ nav **************/
+  /************ video **************/
+}
+
+.wrap .top-bar {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: space-between;
+  -webkit-justify-content: space-betwween;
+  width: 100%;
+  height: 41px;
+  background-color: #EEEDEC;
+}
+
+.wrap .top-bar > button {
+  width: -moz-calc(50% - 20px);
+  width: -webkit-calc(50% - 20px);
+  width: calc(50% - 20px);
+}
+
+.wrap .top-bar > button span {
+  position: relative;
+  padding: 0 14px;
+  font-family: Bariol;
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  line-height: 13px;
+}
+
+.wrap .top-bar > button i {
+  position: absolute;
+  right: 3px;
+  top: -12px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #4A4A4A;
+  color: #fff;
+  font-family: Bariol;
+  font-size: 9px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.wrap .top-bar > button i.active {
+  background-color: #D62D55;
+}
+
+.wrap .top-bar .minute-btn {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -20px;
+  z-index: 8999;
+}
+
+.wrap .top-bar .minute-btn button {
+  width: 40px;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #F5F5F5;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.36);
+}
+
+.wrap .top-bar .minute-btn button .text {
+  position: absolute;
+  left: 5px;
+  bottom: 3px;
+  color: #4A4A4A;
+}
+
+.wrap .top-bar .minute-btn button .text::before {
+  width: 30px;
+  height: 6px;
+  background: url("../images/video/text-minute.png") 0 0 no-repeat;
+}
+
+.wrap .top-bar .minute-btn button .icon-minutes {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 28px;
+  height: 28px;
+  fill: #4A4A4A;
+}
+
+.wrap .time {
+  position: absolute;
+  top: 51px;
+  z-index: 8999;
+  width: 100%;
+  color: #fff;
+  font-family: Bariol;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 13px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wrap .time > i {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: rgba(255, 46, 99, 0.8);
+  border-radius: 50%;
+}
+
+.wrap .nav {
+  position: relative;
+  width: 100%;
+  height: 42px;
+  background-color: rgba(32, 39, 48, 0.7);
+}
+
+.wrap .icon {
+  cursor: pointer;
+}
+
+.wrap .icon-video {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  margin-left: -154px;
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+
+.wrap .icon-video-off {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  margin-left: -156px;
+  width: 34px;
+  height: 34px;
+  fill: #FF5882;
+}
+
+.wrap .icon-rotate {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  margin-left: -79px;
+  width: 30px;
+  height: 28px;
+  fill: #fff;
+}
+
+.wrap .record-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -27px;
+  display: inline-block;
+  width: 62px;
+  height: 74px;
+  z-index: 8999;
+}
+
+.wrap .record-btn span {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-family: Bariol;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 11px;
+}
+
+.wrap .icon-record {
+  width: 62px;
+  height: 62px;
+}
+
+.wrap .icon-record:before {
+  width: 62px;
+  height: 62px;
+  background: url("../images/video/icon-record.png") 0 0 no-repeat;
+}
+
+.wrap .icon-record.active:before {
+  background: url("../images/video/icon-record-active.png") 0 0 no-repeat;
+}
+
+.wrap .icon-mic {
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  margin-left: 61px;
+  width: 26px;
+  height: 36px;
+  fill: #fff;
+}
+
+.wrap .icon-mute {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  margin-left: 61px;
+  width: 24px;
+  height: 34px;
+  fill: #FF5882;
+}
+
+.wrap .icon-out {
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  margin-left: 125px;
+  width: 28px;
+  height: 28px;
+  fill: #fff;
+}
+
+.wrap .btn-add-bookmark {
+  position: absolute;
+  bottom: 81px;
+  left: 50%;
+  margin-left: -82.5px;
+  z-index: 8999;
+}
+
+@media screen and (min-width: 375px) {
+  .wrap .icon-video {
+    margin-left: -171px;
+  }
+  .wrap .icon-video-off {
+    margin-left: -173px;
+  }
+  .wrap .icon-rotate {
+    margin-left: -89px;
+  }
+  .wrap .record-btn {
+    margin-left: -27px;
+  }
+  .wrap .icon-mic, .wrap .icon-mute {
+    margin-left: 72px;
+  }
+  .wrap .icon-out {
+    margin-left: 144px;
+  }
+}
+
+.wrap .video {
+  position: relative;
+  height: -moz-calc(100% - 83px);
+  height: -webkit-calc(100% - 83px);
+  height: calc(100% - 83px);
+  background: #252c33;
+}
+
+.wrap .video video::-webkit-media-controls {
+  display: none !important;
+}
+
+.wrap .video video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+.wrap .video video, .wrap .video img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap .video .user-video-off {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #202730;
+  z-index: 8998;
+}
+
+.wrap .video .user-video-off .icon-volumn {
+  width: 53px;
+  height: 43px;
+  fill: #fff;
+}
+
+.wrap .video .user-video-off i {
+  display: inline-block;
+  padding-top: 7px;
+  color: #FFFFFF;
+  font-family: Bariol;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 13px;
+  text-align: center;
+}
+
+.wrap .video .small-video {
+  position: absolute;
+  right: 0;
+  bottom: 18px;
+  width: 101px;
+  height: 134px;
+  background-color: #fff;
+  z-index: 8999;
+}
+
+.wrap .video .small-video .video-off {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 8999;
+  background-color: rgba(32, 39, 48, 0.8);
+}
+
+.wrap .video .small-video .video-off .icon-volumn-off {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -14px;
+  margin-top: -11px;
+  z-index: 8999;
+  width: 28px;
+  height: 23px;
+  fill: #fff;
+}
+
+@media screen and (min-width: 568px) {
+  .wrap .video .small-video {
+    height: 101px;
+    width: 134px;
+    bottom: 7px;
+  }
+}
+
+.invite-people {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0 24px;
+  background-color: #252c33;
+  z-index: 8998;
+}
+
+.invite-people label {
+  display: block;
+  padding-bottom: 8px;
+  color: #FFFFFF;
+  font-family: Bariol;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* Landscape */
+.landscape-mode {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 41px;
+  bottom: 42px;
+  width: 100%;
+  height: -moz-calc(100% - 83px);
+  height: -webkit-calc(100% - 83px);
+  height: calc(100% - 83px);
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 8000;
+}
+
+.landscape-mode .icon-landscape {
+  width: 48px;
+  height: 50px;
+  fill: #fff;
+}
+
+.landscape-mode i {
+  display: inline-block;
+  padding: 22px 50px 0 50px;
+  color: white;
+  font-family: Bariol;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+}

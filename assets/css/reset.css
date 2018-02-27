@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html, body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', 'Montserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #222;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section,
+ul, li, dl, dt, dd, em, i, p, a, h1, h2, h3, h4, h5, select, form, fieldset, legend {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+}
+
+ul, li, dl, dt, dd, em, i {
+  list-style: none;
+  font-style: normal;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+caption {
+  display: none;
+}
+
+select, textarea, fieldset, button, input, label, em, b, small, span, i {
+  display: inline-block;
+  border: 0 none;
+  outline: none;
+  vertical-align: middle;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+img {
+  vertical-align: top;
+  border: 0 none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  border: none;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #e0e5e6;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+  background: #bbc1c6;
+}
+
+.icon {
+  font-size: 0;
+  color: transparent;
+  text-indent: -9999;
+}
+
+.hide {
+  display: none !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block !important;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.w-100p {
+  width: 100% !important;
+}
+
+.scroll-area {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.icon:before {
+  float: left;
+  content: '';
+}
+
+/** input **/
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+/** checkbox **/
+input ~ label {
+  cursor: pointer;
+}
+
+input[type=checkbox]:not(old) {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+input[type=checkbox]:not(old) + label,
+input[type=checkbox]:not(old):checked + label {
+  position: relative;
+  display: inline-block;
+}
+
+input[type=checkbox]:not(old) + label:before,
+input[type=checkbox]:not(old):checked + label:before {
+  float: left;
+  clear: both;
+  content: '';
+  background: #fff;
+}

@@ -1,0 +1,134 @@
+.landscape .add-people-wrap .add-people-inner {
+  padding-top: 30px;
+}
+
+.landscape .add-people-wrap .add-people-inner p {
+  line-height: 16px;
+}
+
+.add-people-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9000;
+  transition: opacity linear 0s;
+}
+
+.add-people-wrap .add-people-area {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 302px;
+  height: 100%;
+  background-color: #fafafa;
+  box-shadow: 2px 0 3px rgba(0, 0, 0, 0.15);
+}
+
+.add-people-wrap .title {
+  position: absolute;
+  top: 18px;
+  left: 23px;
+  color: #4A4A4A;
+  font-family: Bariol;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 13px;
+}
+
+.add-people-wrap .icon-close {
+  position: absolute;
+  top: 17px;
+  left: 274px;
+}
+
+.add-people-wrap .add-people-inner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.add-people-wrap .add-people-inner p {
+  display: block;
+  padding: 19px 0 29.5px;
+  color: #4A4A4A;
+  font-family: Bariol;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.add-people-wrap .add-people-inner .icon-email-wrap {
+  position: relative;
+  box-sizing: border-box;
+  height: 74px;
+  width: 74px;
+  border-radius: 50%;
+  border: 3px solid #E2E2E2;
+  background-color: #FFFFFF;
+}
+
+.add-people-wrap .add-people-inner .icon-email-wrap .icon-email {
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  height: 32px;
+  width: 47px;
+  fill: #757575;
+}
+
+.add-people-wrap .link-copied {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.add-people-wrap .link-copied .icon-link {
+  width: 29px;
+  height: 29px;
+  margin-bottom: 9px;
+  fill: #757575;
+}
+
+.add-people-wrap .link-copied p {
+  display: block;
+  padding-top: 6px;
+  color: #4A4A4A;
+  font-family: Bariol;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.open-add-people {
+  filter: blur(0.8px);
+}
