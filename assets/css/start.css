@@ -13,6 +13,8 @@
   -webkit-flex-direction: column;
   width: 100%;
   height: 100%;
+  background: url('../images/start/signin_img.jpg') no-repeat;
+  background-position: 50% 100%;
 }
 
 .logo {
@@ -26,7 +28,7 @@
 .logo:before {
   width: 200px;
   height: 41px;
-  background: url("../images/start/logo-color.png") 0 0/200px auto no-repeat;
+  background: url("../images/start/roundee_logo_white.png") 0 0/200px auto no-repeat;
 }
 
 .landscape .start-meeting-wrap {
@@ -35,17 +37,34 @@
 
 .start-meeting-wrap {
   width: 100%;
-  padding: 82px 24px 38px 24px;
+  padding: 122px 24px 38px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.start-meeting-wrap h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 100px;
+}
+.start-wrap p {
+  color: #fff;
+  font-size: 12px;
+  font-style: italic;
+  margin: -6px 0 0 70px;
+}
 .start-meeting-wrap .item-block {
   padding-top: 14px;
 }
-
+.item-block span {
+  color: #fff;
+  font-size: 12px;
+}
 .start-meeting-wrap label {
   display: block;
   padding-bottom: 4px;
-  color: #405262;
+  color: #fff;
   font-family: Bariol;
   font-size: 18px;
   letter-spacing: 1px;
