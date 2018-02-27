@@ -416,8 +416,8 @@ text-align: center;
   position: absolute;
   right: 0;
   bottom: 18px;
-  width: 101px;
-  height: 134px;
+  width: 67px;
+  height: 100px;
   background-color: #fff;
   z-index: 8999;
 }
@@ -524,3 +524,12 @@ text-align: center;
   line-height: 24px;
   text-align: center;
 }
+/* Video Call CSS */
+.guest-name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+  color: #fff;
+}
+/* End Video Call CSS */
