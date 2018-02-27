@@ -55,25 +55,37 @@ body.video-touch .landscape-mode {
   -webkit-flex-direction: row;
   justify-content: space-between;
   -webkit-justify-content: space-betwween;
+  align-items: center;
   width: 100%;
   height: 41px;
-  background-color: #EEEDEC;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  z-index: 10000;
+  padding: 0 20px;
 }
 
-.wrap .top-bar > button {
+/* .wrap .top-bar > button {
   width: -moz-calc(50% - 20px);
   width: -webkit-calc(50% - 20px);
   width: calc(50% - 20px);
+} */
+.wrap .top-bar button.camera-rotate {
+  width: 39px;
+  height: 32px;
 }
-
 .wrap .top-bar > button span {
   position: relative;
-  padding: 0 14px;
-  font-family: Bariol;
+  padding: 5px 0;
   font-size: 12px;
-  color: #4A4A4A;
+  color: #fff;
   letter-spacing: 1px;
   line-height: 13px;
+  display: block;
+  width: 48px;
+  height: 27px;
+  background: #C72844;
+  border-radius: 10px;
 }
 
 .wrap .top-bar > button i {

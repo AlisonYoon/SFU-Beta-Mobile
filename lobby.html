@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko"> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Roundee.io</title>
-
+        
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
+        
         <script src="./assets/js/vendor/jquery-3.2.1.min.js"></script>
         <script src="./assets/js/vendor/slick.min.js"></script>
-
+        
         <script src="./assets/js/common-ui.js"></script>
         <script src="./assets/js/landscape.js"></script>
         <script src="./assets/js/slide.js"></script>
@@ -39,7 +39,7 @@
                                         </g>
                                     </g>
                                 </svg>
-                            </span>
+                            </span> 
                             <label>alison-yoon@linearhub.com</label>
 
                             <svg class="icon icon-volumn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 93.038 93.038" xml:space="preserve">
@@ -58,7 +58,7 @@
                                         </g>
                                     </g>
                                 </svg>
-                            </span>
+                            </span> 
                             <label>alison-yoon@linearhub.com</label>
 
                             <svg class="icon icon-volumn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 93.038 93.038" xml:space="preserve">
@@ -77,7 +77,7 @@
                                         </g>
                                     </g>
                                 </svg>
-                            </span>
+                            </span> 
                             <label>alison-yoon@linearhub.com</label>
 
                             <svg class="icon-mute" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
@@ -233,7 +233,7 @@
                         <path d="M36.001,29c-0.553,0-1,0.447-1,1v16h-10V8c0-0.436-0.282-0.821-0.697-0.953L8.442,2h26.559v16c0,0.553,0.447,1,1,1   s1-0.447,1-1V1c0-0.553-0.447-1-1-1h-34c-0.032,0-0.06,0.015-0.091,0.018C1.854,0.023,1.805,0.036,1.752,0.05   C1.658,0.075,1.574,0.109,1.493,0.158C1.467,0.174,1.436,0.174,1.411,0.192C1.38,0.215,1.356,0.244,1.328,0.269   c-0.017,0.016-0.035,0.03-0.051,0.047C1.201,0.398,1.139,0.489,1.093,0.589c-0.009,0.02-0.014,0.04-0.022,0.06   C1.029,0.761,1.001,0.878,1.001,1v46c0,0.125,0.029,0.243,0.072,0.355c0.014,0.037,0.035,0.068,0.053,0.103   c0.037,0.071,0.079,0.136,0.132,0.196c0.029,0.032,0.058,0.061,0.09,0.09c0.058,0.051,0.123,0.093,0.193,0.13   c0.037,0.02,0.071,0.041,0.111,0.056c0.017,0.006,0.03,0.018,0.047,0.024l22,7C23.797,54.984,23.899,55,24.001,55   c0.21,0,0.417-0.066,0.59-0.192c0.258-0.188,0.41-0.488,0.41-0.808v-6h11c0.553,0,1-0.447,1-1V30   C37.001,29.447,36.553,29,36.001,29z"/>
                     </g>
                 </svg>
-            </div>
+            </div> 
             <div class="btn-wrap">
                 <a href="" class="btn face pink"><span>Leave the room</span></a>
             </div>
@@ -243,46 +243,33 @@
         <div class="wrap">
 
             <!-- 상단 바 영역 -->
-            <!--<div class="top-bar">
-                <button type="button" onclick="openAttendees()"><img src="assets/images/icon/rotate-camera-big.png" alt=""></button>
-                <!-- <div class="minute-btn">
+            <div class="top-bar">
+                <button type="button" onclick="openAttendees()"><span>ATTENDEES<i class="attendee-count">4</i></span> </button>
+                <div class="minute-btn">
                     <button type="button" onclick="openMinutes()">
                         <svg class="icon icon-minutes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 192.988 192.988" xml:space="preserve">
                             <path d="M128.037,12.609v12.962c0,0.483-0.393,0.875-0.876,0.875H65.827c-0.483,0-0.876-0.393-0.876-0.875V12.609  c0-0.483,0.393-0.875,0.876-0.875h15.702V0h29.93v11.733h15.702C127.644,11.733,128.037,12.126,128.037,12.609z M157.903,42.267  V177.68c0,8.454-6.854,15.308-15.308,15.308H50.393c-8.454,0-15.308-6.854-15.308-15.308V42.267c0-8.454,6.854-15.308,15.308-15.308  h4.657c0.685,5.342,5.251,9.487,10.777,9.487h61.334c5.526,0,10.092-4.145,10.777-9.487h4.657  C151.05,26.96,157.903,33.813,157.903,42.267z M52.231,72.176c0,2.761,2.238,5,5,5h66.054c2.762,0,5-2.239,5-5s-2.238-5-5-5H57.231  C54.469,67.176,52.231,69.414,52.231,72.176z M128.285,118.62c0-2.761-2.238-5-5-5H57.231c-2.762,0-5,2.239-5,5s2.238,5,5,5h66.054  C126.047,123.62,128.285,121.381,128.285,118.62z M143.451,95.397c0-2.761-2.238-5-5-5h-81.22c-2.762,0-5,2.239-5,5s2.238,5,5,5  h81.22C141.213,100.397,143.451,98.159,143.451,95.397z"/>
                         </svg>
                         <span class="text icon"></span>
                     </button>
-
-                </div> -->
-                <!-- <button type="button"><span>End</span></button>
-            </div> -->
+                    
+                </div>
+                <button type="button" onclick="openBookmarkList()"><span>BOOKMARKS<i class="bookmark-count hide">4</i></span></button>
+            </div>
 
             <!-- 시간 -->
-            <!-- <div class="time"><i class="i-record hide"></i> 00:05</div> -->
+            <div class="time"><i class="i-record hide"></i> 00:05</div>
 
             <!-- 비디오 영역 -->
             <div class="video">
-              <div class="top-bar">
-                  <button type="button" class="camera-rotate"><img src="assets/images/icon/rotate-camera-big.png" alt=""></button>
-                  <!-- <div class="minute-btn">
-                      <button type="button" onclick="openMinutes()">
-                          <svg class="icon icon-minutes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 192.988 192.988" xml:space="preserve">
-                              <path d="M128.037,12.609v12.962c0,0.483-0.393,0.875-0.876,0.875H65.827c-0.483,0-0.876-0.393-0.876-0.875V12.609  c0-0.483,0.393-0.875,0.876-0.875h15.702V0h29.93v11.733h15.702C127.644,11.733,128.037,12.126,128.037,12.609z M157.903,42.267  V177.68c0,8.454-6.854,15.308-15.308,15.308H50.393c-8.454,0-15.308-6.854-15.308-15.308V42.267c0-8.454,6.854-15.308,15.308-15.308  h4.657c0.685,5.342,5.251,9.487,10.777,9.487h61.334c5.526,0,10.092-4.145,10.777-9.487h4.657  C151.05,26.96,157.903,33.813,157.903,42.267z M52.231,72.176c0,2.761,2.238,5,5,5h66.054c2.762,0,5-2.239,5-5s-2.238-5-5-5H57.231  C54.469,67.176,52.231,69.414,52.231,72.176z M128.285,118.62c0-2.761-2.238-5-5-5H57.231c-2.762,0-5,2.239-5,5s2.238,5,5,5h66.054  C126.047,123.62,128.285,121.381,128.285,118.62z M143.451,95.397c0-2.761-2.238-5-5-5h-81.22c-2.762,0-5,2.239-5,5s2.238,5,5,5  h81.22C141.213,100.397,143.451,98.159,143.451,95.397z"/>
-                          </svg>
-                          <span class="text icon"></span>
-                      </button>
-
-                  </div> -->
-                  <button type="button"><span>End</span></button>
-              </div>
 
                 <!-- 친구 초대 문구와 버튼 영역 : 안보이게 하려면 hide class를 addClass하세요. -->
                 <div class="invite-people">
                     <label>You are the first guest.</label>
                     <button type="button" class="btn face green" onclick="invitePeople()"><span>Invite people</span></button>
                 </div>
-
-
+                
+                
                 <!-- User가 Video를 off한 경우-->
                 <div class="user-video-off hide">
                     <svg class="icon icon-volumn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 93.038 93.038" xml:space="preserve">
@@ -324,7 +311,7 @@
                             <video style="background-color: #527cb5"></video>
                         </li>
                     </ul>
-                </div>
+                </div>   
 
                 <!-- 작은 비디오 영역 -->
                 <div class="small-video">
@@ -334,17 +321,17 @@
                                 <path d="M46.547,75.521c0,1.639-0.947,3.128-2.429,3.823c-0.573,0.271-1.187,0.402-1.797,0.402c-0.966,0-1.923-0.332-2.696-0.973   l-23.098-19.14H4.225C1.892,59.635,0,57.742,0,55.409V38.576c0-2.334,1.892-4.226,4.225-4.226h12.303l23.098-19.14   c1.262-1.046,3.012-1.269,4.493-0.569c1.481,0.695,2.429,2.185,2.429,3.823L46.547,75.521L46.547,75.521z M62.784,68.919   c-0.103,0.007-0.202,0.011-0.304,0.011c-1.116,0-2.192-0.441-2.987-1.237l-0.565-0.567c-1.482-1.479-1.656-3.822-0.408-5.504   c3.164-4.266,4.834-9.323,4.834-14.628c0-5.706-1.896-11.058-5.484-15.478c-1.366-1.68-1.24-4.12,0.291-5.65l0.564-0.565   c0.844-0.844,1.975-1.304,3.199-1.231c1.192,0.06,2.305,0.621,3.061,1.545c4.977,6.09,7.606,13.484,7.606,21.38   c0,7.354-2.325,14.354-6.725,20.24C65.131,68.216,64.007,68.832,62.784,68.919z M80.252,81.976   c-0.764,0.903-1.869,1.445-3.052,1.495c-0.058,0.002-0.117,0.004-0.177,0.004c-1.119,0-2.193-0.442-2.988-1.237l-0.555-0.555   c-1.551-1.55-1.656-4.029-0.246-5.707c6.814-8.104,10.568-18.396,10.568-28.982c0-11.011-4.019-21.611-11.314-29.847   c-1.479-1.672-1.404-4.203,0.17-5.783l0.554-0.555c0.822-0.826,1.89-1.281,3.115-1.242c1.163,0.033,2.263,0.547,3.036,1.417   c8.818,9.928,13.675,22.718,13.675,36.01C93.04,59.783,88.499,72.207,80.252,81.976z"/>
                             </g>
                         </svg>
-                    </div>
+                    </div> 
                     <video></video>
                 </div>
             </div>
 
-
+            
             <!-- Nav -->
             <div class="btn-add-bookmark hide">
                 <button type="button" id="btn-bookmark" class="btn face white" onclick="addBookmark()"><span>Add Bookmark</span></button>
             </div>
-
+            
             <div class="nav">
                 <svg onclick="clickVideo()" class="icon icon-video" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
                     <g>
