@@ -187,12 +187,25 @@ body.video-touch .landscape-mode {
 .nav .icon {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 43px;
 }
 .nav .icon p {
   text-transform: uppercase;
   color: #fff;
   font-size: 12px;
+}
+.nav .icon.icon-guest {
+  width: 26px;
+}
+.nav .icon.icon-cam {
+  width: 34px;
+}
+.nav .icon.icon-mic {
+  width: 23px;
+}
+.nav .icon.icon-chat {
+  width: 27px;
 }
 /* .wrap .icon-video {
   position: absolute;
