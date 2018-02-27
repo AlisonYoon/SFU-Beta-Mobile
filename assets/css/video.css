@@ -533,3 +533,25 @@ text-align: center;
   color: #fff;
 }
 /* End Video Call CSS */
+
+/* Call Quality Test Banner */
+.qa-banner {
+  width: 96%;
+  height: 40px;
+  background: rgba(32,39,48,0.9);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  padding: 10px;
+}
+.qa-banner img.quality-signal {
+  width: 18px;
+  height: 14px;
+}
+.qa-banner p{
+  color: #fff;
+  text-indent: 43px;
+  font-size: 12px;
+}
+/* End Call Quality Test Banner */
