@@ -4,14 +4,14 @@ $(function(){
     $(document).click(function(e){
 
         $('.add-people-area').each(function(){
-            
+
             if( !$(this).parent('add-people-wrap').is('hide') ) {
 
                 var l_position = $(this).offset();
-    
+
                 l_position.right = parseInt(l_position.left) + ($(this).width());
                 l_position.bottom = parseInt(l_position.top) + parseInt($(this).height());
-                
+
                 if( ( l_position.left <= e.pageX && e.pageX <= l_position.right )
                     && ( l_position.top <= e.pageY && e.pageY <= l_position.bottom ) ) {
                 }
@@ -23,7 +23,7 @@ $(function(){
         });
     });
 
-        
+
     // ATTENDEES  List 클릭 시 active 전환
     $('.attendees-wrap').find('li').click(function(){
         var idx = $(this).index();
@@ -49,7 +49,7 @@ $(function(){
     // });
 
     // $(window).resize(function(){
-       
+
     // });
 });
 
@@ -62,7 +62,7 @@ function loading() {
         location.href="./invite-people.html";
     }, 1000);
 
-    
+
 }
 
 // record 버튼을 클릭 시, active toggle
@@ -158,9 +158,10 @@ function closeAttendees() {
 
 // ATTENDEE 팝업에서 Add People 버튼 클릭 시
 function addPeople() {
-    $('.add-people-wrap').removeClass('hide');
-    $('.attendees-wrap, .link-copied').addClass('hide');
-    $('.wrap').removeClass('open-attendees');
+    // $('.add-people-wrap').removeClass('hide');
+    // $('.attendees-wrap, .link-copied').addClass('hide');
+    // $('.wrap').removeClass('open-attendees');
+    $(".btn-wrap a.btn").html("<span>Link Copied!</span>")
 }
 
 
@@ -209,8 +210,8 @@ function closeActivateAttendee() {
 
                 if( ( l_position.left <= e.pageX && e.pageX <= l_position.right )
                     & ( l_position.top - $('div[data-id=attendees]').parent().height() <= e.pageY && e.pageY <= l_position.bottom ) ) {
-                
-                    
+
+
                 } else {
                     $(this).addClass('hide');
                     $('.wrap').removeClass('open-attendees');
@@ -232,8 +233,8 @@ function closeActivateBookmarkList() {
 
                 if( ( l_position.left <= e.pageX && e.pageX <= l_position.right )
                     & ( l_position.top - $('div[data-id=bookmark-list]').parent().height() <= e.pageY && e.pageY <= l_position.bottom ) ) {
-                
-                    
+
+
                 } else {
                     $(this).addClass('hide');
                     $('.wrap').removeClass('open-bookmark-list');
