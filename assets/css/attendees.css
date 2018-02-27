@@ -125,7 +125,7 @@
 
 .attendees-wrap ul li label {
   padding-left: 71px;
-  color: #4A4A4A;
+  /* color: #4A4A4A; */
   font-family: Bariol;
   font-size: 12px;
   letter-spacing: 1px;
@@ -157,3 +157,12 @@
   transform: translateX(302px);
   filter: blur(0.8px);
 }
+
+/* Updated Attendee CSS */
+.current-guest-view {
+  color: #000;
+}
+.guest-view-out {
+  color: #9B9B9B;
+}
+/* End Updated Attendee CSS */
