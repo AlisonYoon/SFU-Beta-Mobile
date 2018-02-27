@@ -107,8 +107,11 @@
   box-sizing: border-box;
   height: 40px;
   width: 40px;
-  border-radius: 50%;
-  background-color: #4A4A4A;
+  /* border-radius: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #4A4A4A; */
 }
 
 .attendees-wrap ul li .video-round .icon-video {
@@ -130,7 +133,7 @@
 }
 
 .attendees-wrap ul li .icon-volumn {
-  display: none;
+  display: block;
   position: absolute;
   top: 17px;
   right: 9px;
