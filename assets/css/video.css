@@ -182,7 +182,7 @@ body.video-touch .landscape-mode {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .nav .icon {
   display: flex;
@@ -438,15 +438,15 @@ body.video-touch .landscape-mode {
   -webkit-flex-direction: column;
   -webkit-align-items: center;
   align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 24px 44px;
   background-color: #252c33;
   z-index: 8998;
 }
