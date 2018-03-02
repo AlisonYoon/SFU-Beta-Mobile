@@ -540,6 +540,22 @@ text-align: center;
   color: #fff;
   display: none;
 }
+.others-video-off {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .others-video-off img {
+  width: 53px;
+  height: 42px;
+}
 /* End Video Call CSS */
 
 /* Call Quality Test Banner */
