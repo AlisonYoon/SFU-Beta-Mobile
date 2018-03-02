@@ -536,9 +536,9 @@ text-align: center;
   color: #fff;
 }
 #recTime {
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
-  display: ;
+  display: none;
 }
 /* End Video Call CSS */
 

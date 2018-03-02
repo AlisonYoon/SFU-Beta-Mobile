@@ -21,7 +21,7 @@
             <div class="attendees-inner">
                 <!-- <h3 class="title">ATTENDEES</h3> -->
                 <!-- Host's attendee list view -->
-                <div class="mute-all">Mute all</div>
+                <div class="mute-all" onclick="muteAll()">Mute all</div>
                 <!-- End Host's attendee list view -->
                 <button type="button" onclick="closeAttendees()">
                     <svg class="icon icon-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 47.971 47.971" xml:space="preserve">
@@ -336,12 +336,12 @@
 
                 <div class="record-btn">
                     <button type="button" class="icon icon-record" onclick="toggleActive()"></button>
-                    <!-- <span>REC</span> -->
+                    <span id="recLabel">REC</span>
                     <p id="recTime">00:01</p>
                 </div>
 
-                <div class="icon icon-mic">
-                  <img src="assets/images/icon/mic-on.png" alt="">
+                <div class="icon icon-mic" onclick="clickMic()">
+                  <img id="myMic" src="assets/images/icon/mic-on.png" alt="">
                   <p>mic on</p>
                 </div>
                 <div class="icon icon-chat">

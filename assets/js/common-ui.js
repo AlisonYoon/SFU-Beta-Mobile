@@ -1,3 +1,6 @@
+// Common variable
+var counter = 0;
+
 $(function(){
 
     // Add People이 아닌 영역을 클릭 했을 경우, Add people을 닫게 한다.
@@ -67,8 +70,16 @@ function loading() {
 
 // record 버튼을 클릭 시, active toggle
 function toggleActive() {
+    counter++;
     $(event.target).toggleClass('active');
     $('.btn-add-bookmark, .i-record').toggleClass('hide');
+    if (counter % 2 === 0) {
+      $('#recLabel').show();
+      $('#recTime').hide();
+    } else {
+      $('#recLabel').hide();
+      $('#recTime').show();
+    }
 }
 
 // invite people 버튼을 클릭 시, add people 영역 토글
@@ -106,7 +117,6 @@ function addBookmark() {
 
 
 // video 버튼을 클릭 시
-var counter = 0;
 function clickVideo() {
     counter ++;
     // $(event.target).toggleClass('off');
@@ -130,7 +140,13 @@ function clickVideoOff() {
 
 // mic 버튼을 클릭 시
 function clickMic() {
-    $('.icon-mic, .icon-mute').toggleClass('hide');
+    counter++;
+    // $('.icon-mic, .icon-mute').toggleClass('hide');
+    if(counter % 2 === 0){
+      $('#myMic').attr('src','assets/images/icon/mic-on.png');
+    } else {
+      $('#myMic').attr('src','assets/images/icon/mic-off.png');
+    }
 }
 
 function clickMute() {
@@ -250,4 +266,13 @@ function closeActivateBookmarkList() {
             }
         });
     });
+}
+
+function muteAll() {
+  counter++;
+  if (counter % 2 === 0){
+    $('.mute-all').text('Mute all');
+  } else {
+    $('.mute-all').text('Unmute all');
+  }
 }
