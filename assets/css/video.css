@@ -556,6 +556,16 @@ text-align: center;
   width: 53px;
   height: 42px;
 }
+.others-mic-off {
+  position: absolute;
+  bottom: 8px;
+  left: 106px; /*Depends on the length of name*/
+  z-index: 1000;
+}
+.wrap .others-mic-off img {
+  width: 19px;
+  height: 19px;
+}
 /* End Video Call CSS */
 
 /* Call Quality Test Banner */
