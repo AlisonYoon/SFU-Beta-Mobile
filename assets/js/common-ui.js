@@ -243,3 +243,20 @@ function closeActivateBookmarkList() {
         });
     });
 }
+
+
+
+function camOnOff() {
+  var add = (function () {
+    var counter = 0;
+    return function (){
+      return counter += 1;
+    };
+    if(counter % 2 == 1) {
+        $('#myCam').attr('src','assets/images/icon/camera-off.png');
+    } else {
+        $('#myCam').attr('src','assets/images/icon/camera-on.png');
+    };
+  })();
+
+};
