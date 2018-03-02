@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
 body.video-touch .top-bar {
   display: none;
 }
@@ -595,6 +597,14 @@ text-align: center;
 .wrap .others-mic-off img {
   width: 19px;
   height: 19px;
+}
+h1.leave-cfm-msg {
+  font-family: 'Lato', sans-serif;
+  color: #4A4A4A;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  margin-bottom: 60px;
 }
 /* End Video Call CSS */
 
