@@ -111,6 +111,7 @@ function clickVideo() {
     $('.icon-video').toggleClass('hide');
     $('.icon-video-off').toggleClass('hide');
     $('.small-video').find('.video-off').toggleClass('hide');
+    $('#myCam').attr('src','assets/images/icon/camera-off.png');
 }
 
 function clickVideoOff() {
