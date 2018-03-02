@@ -540,17 +540,40 @@ text-align: center;
   color: #fff;
   display: none;
 }
-.others-video-off {
+.others-video-off, .poor-connection {
   width: 100%;
   height: 100%;
-  color: #fff;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.poor-connection video{
+  background: url('../images/video/woman.png') no-repeat;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+.others-video-off p, .poor-connection p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.poor-connection p, .poor-connection span {
+  position: absolute;
+  z-index: 1000;
+}
+.poor-connection p {
+  top: 270px;
+}
+.poor-connection span {
+  top: 300px;
+}
+.poor-connection span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
 }
 .wrap .others-video-off img {
   width: 53px;
@@ -562,6 +585,13 @@ text-align: center;
   left: 106px; /*Depends on the length of name*/
   z-index: 1000;
 }
+ .wrap .poor-connection img {
+   position: absolute;
+   top: 200px;
+   z-index: 1000;
+   width: 40px;
+   height: 40px;
+ }
 .wrap .others-mic-off img {
   width: 19px;
   height: 19px;
