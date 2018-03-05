@@ -688,10 +688,12 @@ h1.leave-cfm-msg {
   font-size: 22px;
   line-height: 32px;
   color: #4A4A4A;
+  margin-bottom: 60px;
+  font-weight: 400;
 }
 .feedback-wrap div.feedback-submit {
   width: 80%;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -701,5 +703,31 @@ h1.leave-cfm-msg {
   text-transform: uppercase;
   color: #32353B;
   font-size: 16px;
+  margin-top: 27px;
+}
+.feedback-wrap div.feedback-choose {
+  width: 100%;
+  text-align: center;
+}
+.feedback-wrap div ul li {
+  margin-bottom: 5px;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.feedback-wrap div ul li.feedback-select {
+  background: #E2F1F7;
+  font-weight: 600;
+}
+.feedback-wrap div ul li img {
+  margin-right: 28px;
+}
+.feedback-wrap div ul li img.feedback-checked {
+  position: absolute;
+  right: 0;
+  top: 13px;
 }
 /* End Feedback CSS */

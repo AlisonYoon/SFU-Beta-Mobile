@@ -227,13 +227,13 @@
         <!-- Feedback -->
         <div class="feedback-wrap">
           <h1>How was your experience?</h1>
-          <div>
+          <div class="feedback-choose">
             <ul>
-              <li><img src="assets/images/icon/signal-great.png" alt=""> Great </li>
-              <li><img src="assets/images/icon/signal-good.png" alt=""> Good </li>
-              <li><img src="assets/images/icon/signal-okay.png" alt=""> Okay </li>
-              <li><img src="assets/images/icon/signal-poor.png" alt=""> Poor </li>
-              <li><img src="assets/images/icon/signal-bad.png" alt=""> Bad </li>
+              <li onclick="chooseFeedback()" class="feedback-select"><img src="assets/images/icon/signal-great.png" alt=""> Great <img class="feedback-checked" src="assets/images/icon/cheked.png" alt=""> </li>
+              <li onclick="chooseFeedback()"><img src="assets/images/icon/signal-good.png" alt=""> Good <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""> </li>
+              <li onclick="chooseFeedback()"><img src="assets/images/icon/signal-okay.png" alt=""> Okay <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""></li>
+              <li onclick="chooseFeedback()"<img src="assets/images/icon/signal-poor.png" alt=""> Poor <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""></li>
+              <li onclick="chooseFeedback()"><img src="assets/images/icon/signal-bad.png" alt=""> Bad <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""></li>
             </ul>
           </div>
           <div class="btn-wrap feedback-submit">

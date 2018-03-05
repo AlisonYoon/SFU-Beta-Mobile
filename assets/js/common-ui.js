@@ -267,7 +267,7 @@ function closeActivateBookmarkList() {
         });
     });
 }
-
+// Host mute all
 function muteAll() {
   counter++;
   if (counter % 2 === 0){
@@ -275,4 +275,10 @@ function muteAll() {
   } else {
     $('.mute-all').text('Unmute all');
   }
+}
+
+// Feedback select
+function chooseFeedback() {
+  $('.feedback-choose ul li').addClass('feedback-select');
+  $(this).children('.feedback-checked').removeClass('hide');
 }
