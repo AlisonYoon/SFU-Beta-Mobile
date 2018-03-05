@@ -210,12 +210,12 @@ function deleteBookmark() {
 
 
 // Minutes 클릭 시
-function openMinutes() {
-    $('.minutes-wrap').toggleClass('hide');
+function openChat() {
+    $('.chat-wrap').toggleClass('hide');
 }
 
-function closeMinutes(){
-    $('.minutes-wrap').addClass('hide');
+function closeChat(){
+    $('.chat-wrap').addClass('hide');
 }
 
 

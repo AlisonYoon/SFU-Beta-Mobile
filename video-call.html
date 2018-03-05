@@ -132,15 +132,15 @@
         </div>
 
         <!-- Chat -->
-        <div class="chat-wrap">
+        <div class="chat-wrap hide">
             <!-- <h3 class="title">My monday meeting title</h3> -->
-            <button type="button" class="chat-close" onclick="closeMinutes()"></button>
+            <button type="button" class="chat-close" onclick="closeChat()"></button>
             <div class="contents">
               <div class="chat-name">
                 Guest Name
               </div>
               <div class="chat-msg">
-                Hey, this is new. We can record and download it later after the meeting. 
+                Hey, this is new. We can record and download it later after the meeting.
               </div>
               <div class="chat-name">
                 Guest Name 2
@@ -370,7 +370,7 @@
                   <img id="myMic" src="assets/images/icon/mic-on.png" alt="">
                   <p>mic on</p>
                 </div>
-                <div class="icon icon-chat">
+                <div class="icon icon-chat" onclick="openChat()">
                   <img src="assets/images/icon/chat.png" alt="">
                   <p>chat</p>
                 </div>
