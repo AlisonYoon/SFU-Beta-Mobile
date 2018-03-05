@@ -278,7 +278,9 @@ function muteAll() {
 }
 
 // Feedback select
-function chooseFeedback() {
-  $('.feedback-choose ul li').addClass('feedback-select');
-  $(this).children('.feedback-checked').removeClass('hide');
+function chooseFeedback(childindex) {
+  $('.feedback-choose ul li').removeClass('feedback-select');
+  $('.feedback-choose ul li').children('.feedback-checked').addClass('hide');
+  $('#'+ childindex).addClass('feedback-select');
+  $('#'+ childindex).children('.feedback-checked').removeClass('hide');
 }

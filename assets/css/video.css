@@ -455,7 +455,7 @@ text-align: center;
   }
 }
 
-.invite-people, .access-denied {
+.invite-people, .access-denied, .thank-you {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -731,3 +731,10 @@ h1.leave-cfm-msg {
   top: 13px;
 }
 /* End Feedback CSS */
+
+/* Thank You CSS */
+.wrap .video .thank-you img {
+  width: 211px;
+  height: 43px;
+}
+/* End Thank You CSS */
