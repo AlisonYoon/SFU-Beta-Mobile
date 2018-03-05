@@ -733,8 +733,23 @@ h1.leave-cfm-msg {
 /* End Feedback CSS */
 
 /* Thank You CSS */
+.wrap .video .thank-you {
+  justify-content: center;
+}
 .wrap .video .thank-you img {
   width: 211px;
   height: 43px;
+  margin-bottom: 20px;
+}
+.wrap .video .thank-you h1 {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.wrap .video .thank-you p {
+  color: #A6A6A6;
+  margin-bottom: 100px;
 }
 /* End Thank You CSS */
