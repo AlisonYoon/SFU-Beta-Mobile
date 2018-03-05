@@ -455,7 +455,7 @@ text-align: center;
   }
 }
 
-.invite-people {
+.invite-people, .access-denied {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -629,3 +629,23 @@ h1.leave-cfm-msg {
   font-size: 12px;
 }
 /* End Call Quality Test Banner */
+
+/* Access Denied CSS */
+.wrap .video .access-denied img {
+  width: 54px;
+  height: 54px;
+  margin-bottom: 120px;
+}
+.wrap .video .access-denied p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.wrap .access-denied-wrap {
+  height: 100%;
+}
+.wrap .video .access-denied button.refresh-btn {
+  margin-bottom: 200px;
+}
+/* End Access Denied CSS */
