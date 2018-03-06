@@ -286,11 +286,15 @@ function chooseFeedback(childindex) {
 }
 
 // Record Sending List select
-function chooseEmail(childindex) {
-  if($('input#selectAll').is(':checked')) {
-    $('.feedback-checked').removeClass('hide');
-  } else {
-    $('.feedback-checked').addClass('hide');
-  };
-  $('#email'+ childindex + ' .feedback-checked').toggleClass('hide');
-}
+// function chooseEmail() {
+//   if($('#selectAll').is(':checked')) {
+//         $('.guestemail-list ul li input:checkbox').not(this).prop('checked', this.checked);
+//   } else {
+//     $('.feedback-checked').addClass('hide');
+//   };
+//   // $('.feedback-checked').toggleClass('hide');
+//   // $('#email'+ childindex + ' .feedback-checked').toggleClass('hide');
+// }
+$("#selectAll").change(function () {
+    $(".email").prop('checked', $(this).prop("checked"));
+});

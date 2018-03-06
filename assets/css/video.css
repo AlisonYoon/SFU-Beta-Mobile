@@ -759,14 +759,11 @@ h1.leave-cfm-msg {
   margin-right: 10px;
   font-weight: 400;
 }
-.emaillist-wrap .guestemail-list ul li input[type='checkbox'] {
-  background: pink;
-}
 .emaillist-wrap .guestemail-list ul li {
   width: 100%;
   height: 44px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
   border-bottom: 1px solid #E4E4E4;
@@ -775,7 +772,6 @@ h1.leave-cfm-msg {
   font-size: 16px;
 }
 .emaillist-wrap .guestemail-list ul li.selectall-li {
-  justify-content: flex-end;
   padding-right: 60px;
   border: none;
 }
