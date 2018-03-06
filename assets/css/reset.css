@@ -153,13 +153,13 @@ a:hover {
 }
 
 /** input **/
-input {
+/* input {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
-}
+} */
 
 /** checkbox **/
-input ~ label {
+/* input ~ label {
   cursor: pointer;
 }
 
@@ -182,4 +182,4 @@ input[type=checkbox]:not(old):checked + label:before {
   clear: both;
   content: '';
   background: #fff;
-}
+} */

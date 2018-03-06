@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'); /* For Checkbox*/
 
 body.video-touch .top-bar {
   display: none;
@@ -30,7 +31,7 @@ body.video-touch .landscape-mode {
   height: 100%;
 }
 
-.wrap {
+.wrap, .feedback-wrap, .emaillist-wrap {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -669,24 +670,14 @@ h1.leave-cfm-msg {
 /* End CHat Banner CSS */
 
 /* Feedback CSS */
-.feedback-wrap {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-  position: relative;
-  width: 100%;
-  height: 100%;
+.feedback-wrap, .emaillist-wrap {
   justify-content: center;
   align-items: center;
 }
-.feedback-wrap h1 {
+.feedback-wrap h1, .emaillist-wrap h1 {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
-  line-height: 32px;
+  line-height: 27px;
   color: #4A4A4A;
   margin-bottom: 60px;
   font-weight: 400;
@@ -705,7 +696,7 @@ h1.leave-cfm-msg {
   font-size: 16px;
   margin-top: 27px;
 }
-.feedback-wrap div.feedback-choose {
+.feedback-wrap div.feedback-choose, .emaillist-wrap div.guestemail-list {
   width: 100%;
   text-align: center;
 }
@@ -753,3 +744,60 @@ h1.leave-cfm-msg {
   margin-bottom: 100px;
 }
 /* End Thank You CSS */
+
+/* Email List for Sending Record CSS */
+.emaillist-wrap {
+  padding: 25px;
+}
+.emaillist-wrap .guestemail-list {
+  width: 100%;
+}
+.emaillist-wrap .guestemail-list ul li label {
+  color: #4A4A4A;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 10px;
+  font-weight: 400;
+}
+.emaillist-wrap .guestemail-list ul li input[type='checkbox'] {
+  background: pink;
+}
+.emaillist-wrap .guestemail-list ul li {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #E4E4E4;
+  color: #4A4A4A;
+  font-weight: 600;
+  font-size: 16px;
+}
+.emaillist-wrap .guestemail-list ul li.selectall-li {
+  justify-content: flex-end;
+  padding-right: 60px;
+  border: none;
+}
+.emaillist-wrap div.emaillist-confirm {
+  margin-top: 60px;
+}
+.emaillist-wrap div.emaillist-confirm div {
+  color: #9B9B9B;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-top: 27px;
+}
+/*** custom checkboxes ***/
+.emaillist-wrap .guestemail-list ul li input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+.emaillist-wrap .guestemail-list ul li input[type=checkbox] + label:before {
+  font-family: 'FontAwesome';
+  display: inline-block;
+}
+.emaillist-wrap .guestemail-list ul li input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+.emaillist-wrap .guestemail-list ul li input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+.emaillist-wrap .guestemail-list ul li input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+.emaillist-wrap .guestemail-list ul li input[type=checkbox]:checked + label:before { letter-spacing: 8px; } /* allow space for check mark */
+/* End Email List for Sending Record CSS */
