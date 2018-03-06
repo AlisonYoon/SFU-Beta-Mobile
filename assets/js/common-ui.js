@@ -286,10 +286,11 @@ function chooseFeedback(childindex) {
 }
 
 // Record Sending List select
-function chooseEmail() {
+function chooseEmail(childindex) {
   if($('input#selectAll').is(':checked')) {
     $('.feedback-checked').removeClass('hide');
   } else {
     $('.feedback-checked').addClass('hide');
-  }
+  };
+  $('#email'+ childindex + ' .feedback-checked').toggleClass('hide');
 }
