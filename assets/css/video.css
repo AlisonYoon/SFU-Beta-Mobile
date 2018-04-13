@@ -190,14 +190,18 @@ body.video-touch .landscape-mode {
 .nav .icon {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   height: 43px;
   align-items: center;
+}
+.nav .icon img {
+  width: 32px;
+  height: 32px;
 }
 .nav .icon p {
   text-transform: uppercase;
   color: #fff;
-  font-size: 12px;
+  font-size: 10px;
 }
 .nav .icon.icon-guest {
   width: 26px;
@@ -206,7 +210,7 @@ body.video-touch .landscape-mode {
   width: 34px;
 }
 .nav .icon.icon-mic {
-  width: 23px;
+  /* width: 23px; */
 }
 .nav .icon.icon-chat {
   width: 27px;
