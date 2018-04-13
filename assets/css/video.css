@@ -447,8 +447,8 @@ text-align: center;
   margin-left: -14px;
   margin-top: -11px;
   z-index: 8999;
-  width: 28px;
-  height: 23px;
+  width: 32px;
+  height: 32px;
   fill: #fff;
 }
 
@@ -600,8 +600,8 @@ text-align: center;
    height: 40px;
  }
 .wrap .others-mic-off img {
-  width: 19px;
-  height: 19px;
+  width: 24px;
+  height: 24px;
 }
 h1.leave-cfm-msg {
   font-family: 'Lato', sans-serif;
