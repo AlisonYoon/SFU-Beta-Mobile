@@ -74,12 +74,16 @@ body.video-touch .landscape-mode {
   width: calc(50% - 20px);
 } */
 .wrap .top-bar button.camera-rotate {
-  width: 39px;
-  height: 32px;
+  width: 45px;
+  height: 45px;
+}
+.wrap .top-bar button.camera-rotate img {
+  width: 24px;
+  height: 24px;
 }
 .wrap .top-bar > button span {
   position: relative;
-  padding: 5px 0;
+  padding: 6px 0;
   font-size: 12px;
   color: #fff;
   letter-spacing: 1px;
@@ -406,8 +410,8 @@ text-align: center;
 }
 
 .wrap .video .user-video-off .icon-volumn {
-  width: 53px;
-  height: 43px;
+  width: 32px;
+  height: 32px;
   fill: #fff;
 }
 
