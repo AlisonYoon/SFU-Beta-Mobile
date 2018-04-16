@@ -32,6 +32,11 @@
   box-shadow: 2px 0 3px rgba(0, 0, 0, 0.15);
 }
 
+.add-people-wrap .add-people-area button img {
+  width: 32px;
+  height: 32px;
+}
+
 .add-people-wrap .title {
   position: absolute;
   top: 18px;
@@ -45,8 +50,8 @@
 
 .add-people-wrap .icon-close {
   position: absolute;
-  top: 17px;
-  left: 274px;
+  top: 10px;
+  left: 260px;
 }
 
 .add-people-wrap .add-people-inner {
@@ -79,20 +84,19 @@
 .add-people-wrap .add-people-inner .icon-email-wrap {
   position: relative;
   box-sizing: border-box;
-  height: 74px;
-  width: 74px;
+  height: 64px;
+  width: 64px;
   border-radius: 50%;
-  border: 3px solid #E2E2E2;
+  border: 3px solid #DDE1E7;
   background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .add-people-wrap .add-people-inner .icon-email-wrap .icon-email {
   position: absolute;
-  top: 17px;
-  left: 10px;
   height: 32px;
-  width: 47px;
-  fill: #757575;
+  width: 32px;
 }
 
 .add-people-wrap .link-copied {
@@ -112,10 +116,9 @@
 }
 
 .add-people-wrap .link-copied .icon-link {
-  width: 29px;
-  height: 29px;
+  width: 32px;
+  height: 32px;
   margin-bottom: 9px;
-  fill: #757575;
 }
 
 .add-people-wrap .link-copied p {

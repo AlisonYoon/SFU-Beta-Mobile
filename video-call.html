@@ -152,41 +152,20 @@
             <div class="add-people-area">
                 <h3 class="title">ADD PEOPLE</h3>
                 <button type="button" onclick="closeAddPeople()">
-                    <svg class="icon icon-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 47.971 47.971" xml:space="preserve">
-                        <g>
-                            <path d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88   c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242   C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879   s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z"/>
-                        </g>
-                    </svg>
+                    <img src="assets/images/icon/close.png" alt="" class="icon icon-close">
                 </button>
 
                 <div class="add-people-inner">
                     <button type="button" class="btn face green" onclick="copyLink()"><span>Copy link</span></button>
                     <p>or<br><br>share link by email</p>
                     <a href="" class="icon-email-wrap">
-                        <svg class="icon icon-email" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-                            <g>
-                                <g>
-                                    <path d="M7,9L5.268,7.484l-4.952,4.245C0.496,11.896,0.739,12,1.007,12h11.986    c0.267,0,0.509-0.104,0.688-0.271L8.732,7.484L7,9z"/>
-                                    <path d="M13.684,2.271C13.504,2.103,13.262,2,12.993,2H1.007C0.74,2,0.498,2.104,0.318,2.273L7,8    L13.684,2.271z"/>
-                                    <polygon points="0,2.878 0,11.186 4.833,7.079   "/>
-                                    <polygon points="9.167,7.079 14,11.186 14,2.875   "/>
-                                </g>
-                            </g>
-                        </svg>
+                        <img src="assets/images/icon/email.png" alt="email" class="icon icon-email">
                     </a>
                 </div>
 
                 <div class="link-copied">
                     <!-- <i class="icon icon-link"></i> -->
-                    <svg class="icon icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
-                        <g>
-                            <g>
-                                <path d="M577.995,96.631l-62.626-62.626c-45.34-45.34-119.11-45.34-164.452,0l-118.98,118.984    c-14.921,14.921-14.921,39.112,0.002,54.031c14.921,14.923,39.112,14.919,54.033,0L404.949,88.038    c15.544-15.55,40.842-15.548,56.386-0.002l62.626,62.626c15.546,15.548,15.546,40.842,0.002,56.388L404.983,326.03    c-14.921,14.919-14.921,39.11-0.002,54.033c7.462,7.458,17.237,11.189,27.017,11.187c9.776,0,19.555-3.731,27.015-11.187    l118.982-118.98C623.333,215.746,623.335,141.973,577.995,96.631z"/>
-                                <path d="M326.031,404.986L207.049,523.963c-15.546,15.548-40.842,15.546-56.388,0.002l-62.624-62.624    c-15.544-15.548-15.546-40.844,0-56.388l118.982-118.982c14.921-14.923,14.921-39.114-0.002-54.033    c-14.921-14.923-39.11-14.923-54.033,0L34.004,350.92c-45.338,45.336-45.338,119.106,0,164.45l62.624,62.628    C119.297,600.665,149.074,612,178.853,612c29.777,0,59.556-11.334,82.225-34.001L380.06,459.017    c14.921-14.919,14.921-39.11,0-54.031C365.141,390.063,340.952,390.067,326.031,404.986z"/>
-                                <path d="M189.154,422.844c7.462,7.462,17.237,11.189,27.017,11.189c9.777,0,19.555-3.731,27.015-11.189l179.661-179.659    c14.921-14.919,14.921-39.11,0.002-54.031c-14.921-14.923-39.11-14.919-54.033,0L189.156,368.813    C174.233,383.732,174.233,407.923,189.154,422.844z"/>
-                            </g>
-                        </g>
-                    </svg>
+                    <img src="assets/images/icon/link-dk.png" alt="copy link" class="icon icon-link">
                     <p>Link copied!</p>
                     <p>Paste anywhere to invite. </p>
                 </div>
@@ -217,11 +196,11 @@
           <h1>How was your experience?</h1>
           <div class="feedback-choose">
             <ul>
-              <li id="1" onclick="chooseFeedback(1)" class="feedback-select"><img src="assets/images/icon/signal-great.png" alt=""> Great <img class="feedback-checked" src="assets/images/icon/cheked.png" alt=""> </li>
-              <li id="2" onclick="chooseFeedback(2)"><img src="assets/images/icon/signal-good.png" alt=""> Good <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""> </li>
-              <li id="3" onclick="chooseFeedback(3)"><img src="assets/images/icon/signal-okay.png" alt=""> Okay <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""></li>
-              <li id="4" onclick="chooseFeedback(4)"><img src="assets/images/icon/signal-poor.png" alt=""> Poor <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""></li>
-              <li id="5" onclick="chooseFeedback(5)"><img src="assets/images/icon/signal-bad.png" alt=""> Bad <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""></li>
+              <li id="1" onclick="chooseFeedback(1)" class="feedback-select"><img src="assets/images/icon/signal-great.png" alt="" class="signal"> Great <img class="feedback-checked" src="assets/images/icon/cheked.png" alt=""> </li>
+              <li id="2" onclick="chooseFeedback(2)"><img src="assets/images/icon/signal-good.png" alt=""  class="signal"> Good <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""> </li>
+              <li id="3" onclick="chooseFeedback(3)"><img src="assets/images/icon/signal-okay.png" alt="" class="signal"> Okay <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""></li>
+              <li id="4" onclick="chooseFeedback(4)"><img src="assets/images/icon/signal-poor.png" alt="" class="signal"> Poor <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""></li>
+              <li id="5" onclick="chooseFeedback(5)"><img src="assets/images/icon/signal-bad.png" alt="" class="signal"> Bad <img class="feedback-checked hide" src="assets/images/icon/cheked.png" alt=""></li>
             </ul>
           </div>
           <div class="btn-wrap feedback-submit">

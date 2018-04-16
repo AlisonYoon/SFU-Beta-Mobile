@@ -724,10 +724,17 @@ h1.leave-cfm-msg {
 .feedback-wrap div ul li img {
   margin-right: 28px;
 }
+
+.feedback-wrap div ul li img.signal{
+  width: 32px;
+  height: 32px;
+}
 .feedback-wrap div ul li img.feedback-checked {
   position: absolute;
   right: 0;
   top: 13px;
+  width: 24px;
+  height: 24px;
 }
 /* End Feedback CSS */
 

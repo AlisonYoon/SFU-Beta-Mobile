@@ -45,10 +45,10 @@
 
 .attendees-wrap .icon-close {
   position: absolute;
-  top: 7px;
+  top:11px;
   right: 7px;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 .attendees-wrap .list-wrap {
